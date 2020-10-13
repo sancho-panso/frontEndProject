@@ -1,0 +1,26 @@
+body{
+	height: 100%;
+}
+
+.container-fluid{
+	background-color: #e4d6d6;
+}
+
+
+
+header {
+	margin: auto;
+
+}
+
+header .toprow{
+	background-color: #f3f3f3;
+	height: 40px;
+}
+
+.dropdown-toggle {
+
+	content: no;
+
+}
+
