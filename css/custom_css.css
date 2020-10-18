@@ -5,7 +5,7 @@ body{
 	height: 100%;
 }
 .container-fluid{
-	background-color: ##f8f9fa;
+	background-color: #f8f9fa;
 }
 header {
 	margin:0;
@@ -13,7 +13,7 @@ header {
 }
 header .toprow{
 	background-color: rgb(220, 224, 226);
-	height: 40px;
+	height: 10%;
 }
 .row{
 	background-color: #f8f9fa;
@@ -166,11 +166,11 @@ header .toprow{
 
 }
 .owl-carousel .owl-nav .owl-prev:before{
-    content: "\f053";
+    content: "\f137";
     margin-right:10px;
 }
 .owl-carousel .owl-nav .owl-next:after{
-    content: "\f054";
+    content: "\f138";
     margin-right:10px;
 }
 .thirdSection button{
@@ -198,3 +198,47 @@ footer, footer div {
 	padding: 0;
 	background-color: rgb(39,53,69) ;
 }
+.toprow ul{
+	display:flex;
+	margin: 0;
+	height: 100%;
+}
+.toprow li{
+	display:inline;
+	margin-right: 1px;
+	padding: 3px;
+}
+.toprow a, i{
+	color: rgb(145, 167, 190);
+	width:30px;	
+	text-align: center;
+}
+.toprow a:hover{
+	color: rgb(23, 167, 139);
+	text-decoration: none;
+}
+.toprow i:hover{
+	color: white;
+}
+.facebook:hover{
+	background-color: rgb(69,103,179) ;
+}
+.google:hover{
+	background-color: rgb(221,87,69) ;
+}
+.twitter:hover{
+	background-color: rgb(47,187,237) ;
+}
+.pinterest:hover{
+	background-color: rgb(217,67,71) ;
+}
+.behance:hover{
+	background-color: rgb(47,121,255) ;
+}
+.dribbble:hover{
+	background-color: rgb(235,99,151) ;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
