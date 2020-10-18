@@ -12,7 +12,7 @@ header {
 	padding: 0;
 }
 header .toprow{
-	background-color: #ebebeb;
+	background-color: rgb(220, 224, 226);
 	height: 40px;
 }
 .row{
@@ -94,6 +94,7 @@ header .toprow{
 	text-align: center;
 	margin: 0 auto;
 	width:70%;
+	padding-bottom: 7%;
 	font-size: 0.9em;
 	color: rgb(80,106,133);
 }
@@ -112,13 +113,88 @@ header .toprow{
 }
 .passGreatQual{
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 .passGreatQual img{
 	width: 45px;
 }
-.firstSection{
+.firstSection, .secondSection, .thirdSection{
 	padding: 0;
 }
 .firstSection div{
 	background-color: #f8f9fa;
+}
+
+.secondSection .col-sm-11{
+	padding-left: 10%;
+}
+.secondSection .col-sm-3{
+	margin-right: 3%;
+}
+.secondSection .row{
+	background-color: rgb(220, 224, 226) ;
+	padding-bottom: 5%;
+}
+.latestWorkCard1{
+	font-size: 0.9em;
+	font-style: bold;
+	color: rgb(10,188,155);
+	opacity: 1;
+}
+.latestWorkCard1 span{
+	font-size: 0.7em;
+	color: rgb(80,106,133);
+}
+.latestWorkCard2{
+	font-size: 0.9em;
+	font-style: bold;
+	color: rgb(80,106,133);
+	opacity: 1;
+}
+.latestWorkCard2 span{
+	font-size: 0.7em;
+	color: rgb(80,106,133);
+}
+.owl-nav{
+	margin: 0 auto;
+	text-align: center;
+}
+.owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    font-family: 'fontAwesome';
+
+}
+.owl-carousel .owl-nav .owl-prev:before{
+    content: "\f053";
+    margin-right:10px;
+}
+.owl-carousel .owl-nav .owl-next:after{
+    content: "\f054";
+    margin-right:10px;
+}
+.thirdSection button{
+	background-color: rgb(23, 167, 139);
+	border: none;
+	border-radius: 0;
+	font-size: 1vw;
+	z-index: 50;
+}
+.thirdSection button:hover{
+	background-color: rgb(101, 53, 156);
+}
+.btn-primary:not(:disabled):not(.disabled):focus{
+	background-color: rgb(101, 53, 156);
+	box-shadow: none;	
+}
+.thirdSection p{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.thirdSection :nth-child(2){
+	padding-bottom: 5%;
+}
+footer, footer div {
+	padding: 0;
+	background-color: rgb(39,53,69) ;
 }
