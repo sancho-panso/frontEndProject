@@ -3,6 +3,8 @@ html{
 }
 body{
 	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 .container-fluid{
 	background-color: #f8f9fa;
@@ -51,7 +53,7 @@ header .toprow{
 	font-size: 3vw;
 	margin-top: 10%;
 }
-.card-text{
+#text-on-carousel {
 	text-align: center;
 	font-size: 1.1vw;
 	opacity: 0.5;
@@ -79,7 +81,13 @@ header .toprow{
 	background-color: #f8f9fa;
 }
 .input-group{
-	padding-bottom: 10px;
+	padding-bottom: 5px;
+}
+.custom-search:hover{
+	background-color: rgb(23, 167, 139);
+}
+.fa-search:hover{
+	color: rgb(220, 224, 226);
 }
 #sliderPrevArrow{
 	color: aqua;
@@ -87,6 +95,7 @@ header .toprow{
 .col-sm-11 h3{
 	text-align: center;
 	margin-top: 10%;
+	margin-bottom: 3%;
 	font-size: 2em;
 	color: rgb(80,106,133);
 }
@@ -94,18 +103,18 @@ header .toprow{
 	text-align: center;
 	margin: 0 auto;
 	width:70%;
-	padding-bottom: 7%;
+	padding-bottom: 3%;
 	font-size: 0.9em;
 	color: rgb(80,106,133);
 }
-.col-sm-2 h4{
+.col-sm-12 h4{
 	text-align: left;
 	margin: 0 auto;
 	font-size: 1.2em;
 	font-style: bold;
 	color: rgb(80,106,133);
 }
-.col-sm-2 p{
+.col-sm-12 p{
 	text-align: left;
 	margin: 0 auto;
 	font-size: 0.8em;
@@ -194,10 +203,6 @@ header .toprow{
 .thirdSection :nth-child(2){
 	padding-bottom: 5%;
 }
-footer, footer div {
-	padding: 0;
-	background-color: rgb(39,53,69) ;
-}
 .toprow ul{
 	display:flex;
 	margin: 0;
@@ -220,6 +225,9 @@ footer, footer div {
 .toprow i:hover{
 	color: white;
 }
+.top-contacts{
+	font-size:0.6rem;
+}
 .facebook:hover{
 	background-color: rgb(69,103,179) ;
 }
@@ -241,4 +249,93 @@ footer, footer div {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+ }
+ .dropdown-item:hover{
+	background-color: rgb(23, 167, 139);
+	color: white;
+ }
+ .dropdown-toggle, .dropdown-item{
+	 font-weight:700;
+	 color:rgb(80, 107, 133);
+ }
+ .dropdown-divider{
+	 margin: 0;
+ }
+ .navbar-light .navbar-nav .nav-link {
+	color:rgb(80, 107, 133);
+ }
+ .navbar-light .navbar-nav .nav-link:hover {
+	 color: rgb(23, 167, 139);
+ }
+ footer, footer div {
+	padding: 0;
+}
+.bottom-row{
+	background-color: rgb(39,53,69) ;
+	padding-top: 2%;
+}
+ .bottom-row li, .bottom-row a{
+	display:inline;
+	text-decoration: none;
+	margin-right: 1px;
+	padding: 3px;
+	color:rgb(80, 107, 133);
+	font-size: 0.7rem;
+ }
+ .bottom-row a:hover{
+	color: rgb(23, 167, 139);
+ }
+ .bottom-row p{
+	color:rgb(80, 107, 133);
+	font-size: 0.7rem;
+	margin-left: 30%;
+ }
+ .footer-menu{
+	 background-color: rgb(47, 63, 81);
+	 padding-top: 5%;
+	 padding-bottom: 5%;
+ }
+ .footer-gallery img{
+	width: 100%;
+ }
+ .footer-menu h6{
+	color: rgb(220, 224, 226);
+	font-weight: 700;
+	padding-top: 10%;
+	padding-bottom: 5%;
+ }
+ .footer-menu p,.footer-menu a{
+	text-decoration: none;
+	text-align: left;
+	font-size: 0.7em;
+	color: rgb(80,106,133);
+	font-weight: 700;
+ }
+ .footer-menu a:hover{
+	color: rgb(23, 167, 139);
+ }
+ .footer-menu i{
+	 text-align: left;
+ }
+ .footer-gallery a{
+	 background-color: rgb(47, 63, 81) ;
+	 padding: 3px;
+ }
+ .custom-file-input:lang(en)~.custom-file-label::after{
+	 content: "SUBSCRIBE";
+	 text-align: center;
+	 font-size: 0.8em;
+	 color: rgb(220, 224, 226);
+	 background-color: rgb(23, 167, 139);
+	 height:auto;
+	 padding: 5px;
+ }
+ .custom-file-label{
+	 margin-bottom: 0;
+	 font-size: 0.7em;
+	 color: rgb(220, 224, 226);
+	 text-align: left;
+	 background-color: rgb(80,106,133);
+	 border: solid 3px rgb(80,106,133);
+	 height: auto;
  }
