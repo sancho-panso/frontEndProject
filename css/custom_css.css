@@ -6,6 +6,9 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
+.bg-light{
+	background-color: #f8f9fa !important;
+}
 .container-fluid{
 	background-color: #f8f9fa;
 	margin:0;
@@ -91,9 +94,6 @@ header .toprow{
 .fa-search:hover{
 	color: rgb(220, 224, 226);
 }
-#sliderPrevArrow{
-	color: aqua;
-}
 .col-sm-11 h3{
 	text-align: center;
 	margin-top: 10%;
@@ -109,14 +109,14 @@ header .toprow{
 	font-size: 0.9em;
 	color: rgb(80,106,133);
 }
-.col-sm-12 h4{
+.col-sm-10 h4{
 	text-align: left;
 	margin: 0 auto;
 	font-size: 1.2em;
 	font-style: bold;
 	color: rgb(80,106,133);
 }
-.col-sm-12 p{
+.col-sm-10 p{
 	text-align: left;
 	margin: 0 auto;
 	font-size: 0.8em;
@@ -206,7 +206,6 @@ header .toprow{
 	padding-bottom: 5%;
 }
 .toprow ul{
-	display:flex;
 	margin: 0;
 	height: 100%;
 }
@@ -215,7 +214,7 @@ header .toprow{
 	margin-right: 1px;
 	padding: 3px;
 }
-.toprow a, i{
+.toprow a, .toprow i{
 	color: rgb(145, 167, 190);
 	width:30px;	
 	text-align: center;
@@ -229,6 +228,10 @@ header .toprow{
 }
 .top-contacts{
 	font-size:0.6rem;
+	padding-inline-start: 0px !important;
+}
+.social{
+	padding-left:55%;
 }
 .facebook:hover{
 	background-color: rgb(69,103,179) ;
@@ -294,8 +297,7 @@ header .toprow{
  }
  .footer-menu{
 	 background-color: rgb(47, 63, 81);
-	 padding-top: 5%;
-	 padding-bottom: 5%;
+	 padding:5% 15% 5% 15%;
  }
  .footer-gallery img{
 	width: 100%;
